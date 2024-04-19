@@ -1,0 +1,38 @@
+<div class="body">
+    <div class="container shadow-effect">
+        <div class="row">
+        <div class="head">
+        <img class="image" src="../../assets/googleimage.jpg"/>
+        <p class="sign">Sign in</p>
+        <span class="arrange">to continue to Gmail</span>
+        </div>
+        
+        <div class="center">
+            <mat-form-field appearance="outline" class="custom-mat-field">
+                <mat-label class="label-width">Email or Phone</mat-label>
+                <input matInput placeholder="Email or Phone" class="custom-mat-input" name="email" [(ngModel)]="loginObj.email">
+            </mat-form-field>
+            
+            <mat-form-field appearance="outline" class="custom-mat-field">
+                <mat-label class="label-width">Password</mat-label>
+                <input matInput placeholder="Password" type="password" class="custom-mat-input" name="password" [(ngModel)]="loginObj.password">
+            </mat-form-field>
+        </div>
+        <div class="forgot-email">
+            <a routerLink="/forgotemail">Forgot email?</a>
+        </div>
+        <div class="end">
+            <p class="ex-text">Not your computer? Use Guest mode to sign in privately. </p>
+            <p class="guest">Learn more about using Guest mode</p>
+        </div>
+        <div>
+            <div class="buttons">
+                <button mat-button class="login-button-1" style="color: blue">Create account</button>
+                <button mat-raised-button class="login-button-2"  (click)="LoginUser()" style="color: white;padding-right: 10px;margin-right: 55px;background-color: blue;border-color: grey;width: 100px;">Next</button>
+
+            </div>
+        </div>
+    
+    </div>
+    </div>
+</div>

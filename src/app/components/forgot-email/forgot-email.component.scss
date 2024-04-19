@@ -1,0 +1,72 @@
+.body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 40px;
+    padding-top: 120px;
+    padding-bottom: 80px;
+
+}
+.container{
+    //border: 2px solid black ;
+    border: 2px solid beige;
+    box-shadow: 0 0 0 2px white;
+
+    width:  65vh;
+    height:75vh;
+    
+    margin-left: 70%;
+    margin:20px;
+    // display: flex;
+    // flex-direction: row;
+    // justify-content: center;
+    //border-style:solid;
+
+    
+    
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top:5vh;
+    padding-bottom: 20px;
+}
+.image{
+    height:38px;
+    width:100px;
+    padding-bottom: 15px;
+
+}
+.sign{
+    font-size: 30px;
+    //font-weight:100px;
+    padding: 10px;
+    
+    //font:normal normal normal 24px/24px Roboto;
+}
+.custom-mat-field {
+    width: 400px; /* Set the desired width */
+    padding-top:20px;
+  }
+  
+  .custom-mat-input {
+    width: 100%; /* To ensure the input takes up the full width of the mat-form-field */
+  }
+  .buttons{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+  .login-button-2{
+    
+  }

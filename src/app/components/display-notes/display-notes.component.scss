@@ -1,0 +1,67 @@
+// .card{
+//     display:flex;
+    
+//     background-color:white;
+    
+    
+// }
+//  .notesContainer{
+//      background-color: blue;
+//      height:300px;
+    
+//      flex-wrap: wrap;
+//      width:150px
+//  }
+// .card{
+//     width: 67vw;
+//     display: grid;
+//     grid-template-columns: 230px 230px 230px ;
+//     justify-content: space-between;
+//     flex-wrap: wrap;
+//     //border: 2px solid;// #797a7c
+//     margin: 0px auto;
+//     //position: absolute;
+//     //height: fit-content;
+//     padding-right: 70px;
+
+// }
+.card-container {
+    padding-top: 20px;
+    margin-right: 15px;
+    margin-left: 15px;
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+  }
+  
+  .card {
+    width: calc(33.33% - 20px); /* Adjust the width of each card as needed */
+    margin-bottom: 20px; /* Add margin between cards */
+    border-radius: 25px;
+    margin-right: 10px;
+  }
+  .pin-img{
+    padding-top: 6px;
+    //padding-left: 250px;
+    //margin-left: 80px;
+    //margin-bottom: 20px;
+    //text-align: end;
+    //padding-bottom: 200px;
+    margin-right: 10px;
+  }
+  
+  .notesContainer {
+    /* Your existing styles for mat-card */
+  }
+  
+  .title {
+    margin-left: 20px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .text {
+    /* Your existing styles for text */
+  }
+  

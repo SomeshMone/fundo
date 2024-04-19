@@ -1,0 +1,128 @@
+.container{
+    border: 2px solid wheat;
+    width:  80vh;
+    height:100vh;
+    margin-left: 70%;
+    margin:20px;
+    // display: flex;
+    // flex-direction: row;
+    // justify-content: center;
+    //border-style:solid;
+
+    box-shadow: seashell;
+    
+}
+.image{
+    height:100px;
+    width:200px;
+
+}
+.sign{
+    font-family:'Roboto';
+    font-size: 25px;
+    padding: 5px;;
+
+    
+}
+.arrange{
+    padding-bottom:20px;
+    //padding: 3px;
+}
+.forgot-email{
+    border-top: 0px;
+    font-family: Roboto;
+    color:#0d6efd;
+    font-size:14px;
+    font-weight: 500;
+    margin-left: 30px;
+
+}
+a {
+    color:#0d6efd;;
+    text-decoration: none;
+
+}
+.body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top:10vh;
+    padding-bottom: 20px;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.forgot-email{
+    padding-left: 38px;
+}
+.label-width{
+    width:65vh;
+    width: 20px;
+    height: 80vh;
+}
+.custom-mat-field {
+    width: 450px; /* Set the desired width */
+  }
+  
+  .custom-mat-input {
+    width: 100%; /* To ensure the input takes up the full width of the mat-form-field */
+  }
+  .end{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 65px;
+    padding-top: 25px;
+  }
+  .ex-text{
+   
+    padding-top: 25px;
+    font-size: 14px;
+    
+    font-family: "Roboto";
+    color:rgb(95,99,104);
+  }
+  .guest {
+    margin-top: 0px;
+    color:#0d6efd;
+    font-weight: 500;
+    font-size:14px;
+    margin-bottom: 30px;
+    
+
+}
+.ex-text, .guest {
+    margin: 0; /* Remove top and bottom margin */
+    padding: 0; /* Remove padding */
+}
+
+.login-text-2 {
+    width:350px;
+    margin-left: 30px;
+    border-style: solid;
+    margin-bottom: 10px;
+    
+  
+    border: 1px solid rgba(128, 113, 113, 0.489);
+
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    padding-left: 60px;
+    padding-top: 45px;
+    justify-content: space-between;
+}
+.shadow-effect{
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+}

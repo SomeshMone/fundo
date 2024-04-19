@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'fundooProject';
+  city:string="Hyderabad";
 }
